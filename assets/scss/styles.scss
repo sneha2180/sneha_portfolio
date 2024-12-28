@@ -196,7 +196,7 @@ img{
     flex-direction: column;
     justify-content: center; /* Vertically center content */
     text-align: center;
-    margin-top: 0; /* Ensure no extra space above the title */
+    margin-top: -50px; /* Ensure no extra space above the title */
     padding-top: 0; /* Remove any padding added by default */
 }
 
