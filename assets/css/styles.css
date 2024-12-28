@@ -112,6 +112,8 @@ img {
   z-index: var(--z-fixed);
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  border-bottom: .5px solid #9AA6B2;
+  padding-bottom: 20px;
 }
 
 /*===== NAV =====*/
@@ -186,6 +188,7 @@ img {
 }
 .home__data {
   align-self: center;
+  max-width: 50%;
 }
 .home__title {
   font-size: var(--big-font-size);
@@ -218,6 +221,9 @@ img {
 }
 .home__blob-img {
   width: 360px;
+  vertical-align: middle;
+  justify-content: center;
+  
 }
 
 /*BUTTONS*/
@@ -482,5 +488,6 @@ img {
   }
   .home__img {
     width: 450px;
+    bottom: 25%;
   }
 }
